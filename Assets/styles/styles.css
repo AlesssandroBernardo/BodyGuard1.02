@@ -1,0 +1,397 @@
+
+
+
+
+/*General styles*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font: normal 15px sans-serif; /*ta-mano de las letras de toda la pagina*/
+    font-family: 'Abahay Libre',sans-serif; /*tipo de letra de la pagina*/
+    color: darkgray;
+    scroll-behavior: smooth !important;
+}
+p{
+    font-family: 'Old Standard TT', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+hr {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    border: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body{
+    width: 100%; /*ta-mano de la pagina*/
+    background-color: black; /* color del fondo de la pagina*/
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+/*main{
+    display: block;
+}*/
+.container{
+    display: flex;
+    width: 80%;
+    height: 90vh;
+}
+.card{
+    color: white;
+    font-size: 25px;
+}
+/*.card{
+    display: block;
+}*/
+.btn_call_to_action{
+    padding: 0.3em 1em; /*ta-mano del button*/
+    border-radius: 54px;
+    align-self: center;
+    text-align: center;
+    background-color: #dc751d; /*color del button*/
+    cursor: pointer;
+    text-decoration: none;
+    color: black; /*color de las letras del button*/
+}
+
+/*Section Titles*/
+.logo{
+    width: 20%;
+    display: flex;
+    margin: auto 0;
+}
+.logo img{
+    width: 5em;
+}
+.logo h1{
+    color: #dc751d;    /*Color de la letra del logo*/
+    margin: auto 0;
+}
+.Section-Title{
+    width: 98vw;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 1vh 1vw;
+    justify-content: space-between;
+}
+.Section-Title ul{
+    width: 60%;
+    display: flex;
+    text-transform: uppercase;
+}
+.Section-Title ul li{
+    list-style: none;
+    margin: auto;
+}
+.Section-Title ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;   /*color de las letras de la barra de opciones total*/
+    font: bold 18px 'Opens Sans', sans-serif;
+}
+.Section-Title ul li b{
+    color: #dc751d;   /*color de la letra de barra inicio*/
+    text-decoration: none;
+    cursor: pointer;
+    font: bold 18px 'Opens Sans', sans-serif;
+}
+
+/*  Section Inicio     */
+#Inicio{
+    display: block;
+    width: 100%;
+}
+#inicio .card{
+    margin: 200px 3.7%;
+    font-size: 30px;
+}
+#inicio .container h3{
+    text-align: center;
+    width: 130%;
+    margin: 25%;
+    padding:-1%;
+    font-size: 200%;
+}
+#inicio img{
+    width: 75%;
+    margin: 0 21%;
+    display: block;
+}
+
+#inicio .card .btn_call_to_action{
+    width: fit-content;
+    text-align: center;
+    margin: 60%;
+}
+
+/*  Section nosotros    */
+#nosotros .container{
+    width: 100%;
+    margin-left: 40px;
+}
+#nosotros .container img{
+    width: 100%;
+    height: 50%;
+}
+#nosotros .card{
+    width: 20%;
+    background-color: white;
+    color: black;
+}
+#nosotros .card p{
+    width: 90%;
+    margin-left: 15px;
+    margin-top: -35px;
+}
+#nosotros .card2{
+    width: 25%;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 10em;
+    margin-top: 12em;
+}
+#nosotros .card h3{
+    text-align: center;
+    font-size: 25px;
+    margin-left: 20px;
+}
+#nosotros div.card{
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 130px 50px;
+}
+#nosotros .card2 h5{
+    font-size: 45px;
+    color: white;
+}
+#nosotros .card hr{
+    width: 25%;
+    height: 3px;
+    background-color: #0a0a0a;
+    border: 0;
+    margin-top: 30px;
+    margin-bottom: 0;
+    margin-left: -80px;
+}
+
+/*Section servicios*/
+/*#Servicios .container{
+    position: relative;
+    display: inline-block;
+}
+#Servicios .texto1{
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    font-family: Georgia, 'Times New Roman';
+    font-size: 22px;
+    color: rgb(3, 3, 3);
+}
+#Servicios .texto2{
+    position: absolute;
+    top: 80%;
+    right: 10%;
+    font-size: 16px;
+    color: white;
+}*/
+#servicios .container img{
+    width: 100%;
+    margin-right: 10px;
+}
+#servicios .card{
+    width: 50%;
+    text-align: center;
+    padding-left: 7em;
+}
+#servicios .container{
+    width: 75%;
+    align-items: center;
+    padding-left: 14em;
+}
+#servicios .card p{
+ font-size: 20px;
+}
+#servicios .card h3{
+    font-size: 35px;
+}
+
+/*Section Testimonios*/
+#testimonios  .container{
+    width: 70%;
+    background-color: #252424;
+    margin-left: 18em;
+    margin-top: 25px;
+}
+#testimonios .container img{
+    width: 55%;
+    height: 140%;
+    margin-left: 5rem;
+}
+#testimonios .TitleTes{
+    margin-top: 30px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+#testimonios .card{
+    margin: 12rem 4rem;
+    width: 70%;
+    height: 35%;
+}
+#testimonios .card3{
+    width: 80%;
+    margin-top: 12em;
+    margin-left: 8em;
+    font-size: 20px;
+}
+#testimonios .card3 img{
+    width: 10%;
+    height: 3%;
+}
+#testimonios .author{
+    color: aqua;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+#testimonios .marca{
+    color: chocolate;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+/*Section Tarifas*/
+#tarifas .container img{
+    width: 110rem;
+    padding-left: 10em;
+    height: 100%;
+}
+
+/*Section anexos*/
+#anexo{
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+#anexo .titulo{
+    font-size: 40px;
+
+}
+#anexo .extra{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+#anexo .extra1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#anexo .extra1 img{
+    margin: 10px 10px;
+    width: 70%;
+    height: 80%;
+}
+#anexo .extra1 h3{
+    margin: 10px 1px;
+    font-size: 35px;
+}
+#anexo .extra1 a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+#anexo .extra1 a:hover{
+    color: orange;
+    font-weight: bold;
+}
+
+/*Section Contacto*/
+#contacto .container{
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+#contacto .container h3{
+    margin-top: 30px;
+    font-size: 40px;
+    color: #ffffff;
+}
+#contacto .card {
+    width: 92%;
+    text-align: center;
+    color: white;
+    background-color: #252424;
+    margin-left: 70px;
+    margin-bottom: 35px;
+    margin-top: 40px;
+}
+#contacto .grid{
+    text-align: left;
+    display: block;
+}
+#contacto .final ul.grid{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#contacto .grid li{
+    margin-bottom: 55px;
+    padding: 0 80px;
+    flex-basis: 10%;
+}
+#contacto .card img{
+    width: 4%;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+#contacto .final img{
+    width: 60%;
+}
+#contacto .card form{
+    margin-bottom: 12px;
+}
+#contacto .card input{
+    padding: 10px;
+    font-size: 15px;
+    width: 30%;
+    margin-bottom:-8px;
+}
+#contacto .card a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    opacity: 0.9;
+}
+#contacto .card a:hover{
+    opacity: 1;
+}
+#contacto .card a.btn {
+    background-color: #fccb33;
+    color: black;
+    font-size: 19px;
+    font-weight: 800;
+    text-align: center;
+}
+#contacto form .btn{
+    padding: 1px 32px;
+}
